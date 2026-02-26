@@ -1,0 +1,289 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bootstrap 5.3 Tasks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- 
+##############################################################################################################################################
+ [ i ] Instructions: Complete the tasks in the code comments to create a responsive Bootstrap page        
+##############################################################################################################################################
+[## HINT: ##] Tasks are marked in the code comments with [### TASK: ###]
+[## HINT: ##] Links to the relevant Bootstrap documentation (https://getbootstrap.com/docs/5.3/getting-started/introduction/) are provided in the comments
+[## HINT: ##] You can also refer to W3Schools Bootstrap Tutorial (https://www.w3schools.com/bootstrap5/) for additional examples and explanations.
+[## HINT: ##] You can copy and paste code snippets from the Bootstrap documentation or W3Schools, but ensure you understand what each part does.
+##############################################################################################################################################
+-->
+
+
+    <!-- # MAIN CONTAINER-->
+    <main class="container-fluid gx-0">
+
+
+        <!-- # NAVBAR COMPONENT -->
+        <!-- [### TASK: ###] Complete the navbar (See: https://getbootstrap.com/docs/5.3/components/navbar)-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- # END NAVBAR COMPONENT -->
+
+
+        <!-- [### TASK: ###] Add Padding to all sides of the div.container-fluid (https://getbootstrap.com/docs/5.3/utilities/spacing/#margin-and-padding) -->
+        <div class="container-fluid p-2 ">
+
+            <h2>Responsive Grid</h2>
+
+            <!-- # RESPONSIVE GRID LAYOUT WITH CARD COMPONENTS -->
+            <!-- [### TASK: ###] Add Margin to the bottom of the .row (https://getbootstrap.com/docs/5.3/utilities/spacing/#margin-and-padding) -->
+            <div class="row mb-2 ">
+
+
+                <!-- Column with Card component -->
+                <!-- [## HINT: ##] Mobile first column sizing (eg: 6 = half, 4 = third, 3 = quarter, 6 = half) -->
+                <div class="col-sm-6 col-lg-4 col-xl-3 mb-2">
+
+                    <!-- [### TASK: ###] Complete the Card component, add bottom margin (See: https://getbootstrap.com/docs/5.3/components/card/) -->
+                    <!-- [### TASK: ###] Add Margin to the bottom of the card -->
+                    <!-- [### TASK: ###] Add a Button component to the .card-body -->
+                    <div class="card mb-2" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-sm-6 col-lg-4 col-xl-3 mb-2">#
+                    <div class="card mb-2" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 mb-2">
+                    <div class="card mb-2" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 mb-2">
+                    <div class="card mb-2" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 mb-2">
+                    <div class="card mb-2" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 mb-2">
+                    <div class="card mb-2" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- [### TASK: ###] Add More columns with card components with new titles and content -->
+
+
+            </div>
+            <!-- # END RESPONSIVE GRID LAYOUT WITH CARD COMPONENTS -->
+
+
+
+
+            <!-- # SECOND CONTENT ROW -->
+            <div class="row">
+
+
+                <!-- [### TASK: ###] Make this full width on small screens and half width on medium screens (See: https://getbootstrap.com/docs/5.3/layout/grid) -->
+                <!-- [### TASK: ###] Add margin to the bottom of the col -->
+                <!-- [## HINT: ##] Mobile first column sizing (eg: 6 = half, 4 = third, 3 = quarter, 6 = half) -->
+                <div class="col-sm- ">
+
+                    <!--  FORMS -->
+                    <h2>Form and Inputs</h2>
+
+                    <!-- [### TASK: ###] Complete the Form component (See: https://getbootstrap.com/docs/5.3/forms/overview) -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+
+                <!-- [### TASK: ###] Make this full width on small screens and quarter width on medium screens (See: https://getbootstrap.com/docs/5.3/layout/grid) -->
+                <!-- [### TASK: ###] Add margin to the bottom of the col  -->
+                <div class="col- ">
+
+                    <!-- LIST GROUP -->
+                    <h2>List Group</h2>
+
+                    <!-- [### TASK: ###] Complete the List Group component (See: https://getbootstrap.com/docs/5.3/components/list-group/) -->
+                    <ul class="">
+
+
+                    </ul>
+
+                </div>
+
+
+                <!-- [### TASK: ###] Make this full width on small screens and quarter width on medium screens (See: https://getbootstrap.com/docs/5.3/layout/grid) -->
+                <!-- [### TASK: ###] Add margin to the bottom of the col  -->
+                <div class="col- ">
+
+                    <!-- ACCORDION -->
+                    <h2>Accordion</h2>
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item"s accordion body.</strong> It is shown by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            Its also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <!-- [### TASK: ###] Complete the Accordion component (See: https://getbootstrap.com/docs/5.3/components/accordion/) -->
+                            <div class="">
+
+
+                            </div>
+
+
+                </div>
+
+            </div>
+            <!-- END SECOND CONTENT ROW -->
+
+
+
+        </div>
+        <!-- END MAIN CONTENT AREA -->
+
+        <!-- FOOTER -->
+        <!-- [### TASK: ###] Centre the text, add padding to all sides (See: https://getbootstrap.com/docs/5.3/utilities/text/#text-alignment) -->
+        <footer class="">
+            <small>Demo by [Enter Your Name] at Sheffield Hallam University</small>
+        </footer>
+
+
+
+    </main>
+    <!-- END MAIN CONTAINER-->
+
+
+    <!-- 
+##############################################################################################################################################
+ [ ? ] FINISHED ALL THE PREVIOUS TASKS?
+##############################################################################################################################################
+[TASK]: Uncomment the Bootstrap JS <script> tag in the <head> section to enable interactive components (eg: Mobile Menu, Accordion)
+[TASK]: Change each card button colour (See: https://getbootstrap.com/docs/5.3/components/buttons/#variants)
+[TASK]: Add a Background Colour to the Footer (See: https://getbootstrap.com/docs/5.3/utilities/background/#background-color)
+[TASK]: Change the Background Colour of the Navbar (See: https://getbootstrap.com/docs/5.3/components/navbar/#color-schemes)
+[TASK]: Add an item to the List Group with your name
+[TASK]: Add an item to the Accordion with your name and a short description about your favourite music/film/book/hobby
+[TASK]: Replace a button on a card with a Button Group with alternative button colours/styles (See: https://getbootstrap.com/docs/5.3/components/button-group/)
+[TASK]: Add another form input (See: https://getbootstrap.com/docs/5.3/forms/overview/)
+[TASK]: Add 'Floating Labels' to the Form Inputs (See: https://getbootstrap.com/docs/5.3/forms/floating-labels/)
+-->
+
+</body>
+
+</html>
